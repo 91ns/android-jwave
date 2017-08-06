@@ -21,11 +21,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.datatypes.spaces;
+package com.nourshalabi.jwave.datatypes.spaces;
 
-import jwave.datatypes.blocks.Block;
-import jwave.datatypes.blocks.BlockFull;
-import jwave.exceptions.JWaveException;
+
+import com.nourshalabi.jwave.datatypes.blocks.Block;
+import com.nourshalabi.jwave.datatypes.blocks.BlockFull;
+import com.nourshalabi.jwave.exceptions.JWaveException;
 
 /**
  * A space that uses a full array for storage of Block objects.

@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.transforms.wavelets.biorthogonal;
+package com.nourshalabi.jwave.transforms.wavelets.biorthogonal;
 
 /**
  * BiOrthogonal Wavelet of type 6.8 - Six vanishing moments in wavelet function

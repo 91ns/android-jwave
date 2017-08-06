@@ -21,9 +21,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.transforms.wavelets.haar;
+package com.nourshalabi.jwave.transforms.wavelets.haar;
 
-import jwave.transforms.wavelets.Wavelet;
+
+import com.nourshalabi.jwave.transforms.wavelets.Wavelet;
 
 /**
  * Alfred Haar's orthonormal wavelet transform.

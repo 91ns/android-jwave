@@ -21,10 +21,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.compressions;
+package com.nourshalabi.jwave.compressions;
 
-import jwave.exceptions.JWaveException;
-import jwave.exceptions.JWaveFailure;
+import com.nourshalabi.jwave.exceptions.JWaveException;
+import com.nourshalabi.jwave.exceptions.JWaveFailure;
 
 /**
  * Some how this class is doing the same as the technical counterpart is doing -

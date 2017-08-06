@@ -21,9 +21,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.datatypes.lines;
+package com.nourshalabi.jwave.datatypes.lines;
 
-import jwave.exceptions.JWaveException;
+import com.nourshalabi.jwave.exceptions.JWaveException;
 
 /**
  * A line of Data; 1-D organized by (0) .. (noOfRows), using a double array for

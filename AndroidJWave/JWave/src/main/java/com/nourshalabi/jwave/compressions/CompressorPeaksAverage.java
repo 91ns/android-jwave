@@ -21,9 +21,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.compressions;
+package com.nourshalabi.jwave.compressions;
 
-import jwave.exceptions.JWaveException;
+import com.nourshalabi.jwave.exceptions.JWaveException;
 
 /**
  * This compression takes the average of the min and absolute the max of a given

@@ -21,11 +21,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.datatypes.blocks;
+package com.nourshalabi.jwave.datatypes.blocks;
 
-import jwave.datatypes.Super;
-import jwave.exceptions.JWaveException;
-import jwave.exceptions.JWaveFailure;
+import com.nourshalabi.jwave.datatypes.Super;
+import com.nourshalabi.jwave.exceptions.JWaveException;
+import com.nourshalabi.jwave.exceptions.JWaveFailure;
 
 /**
  * A block of Data; 2-D organized by (0,0) .. (noOfRows,noOfCols). This object

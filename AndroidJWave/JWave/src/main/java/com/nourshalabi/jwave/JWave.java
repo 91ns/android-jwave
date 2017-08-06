@@ -21,11 +21,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave;
+package com.nourshalabi.jwave;
 
-import jwave.transforms.DiscreteFourierTransform;
-import jwave.transforms.wavelets.Wavelet;
-import jwave.transforms.wavelets.WaveletBuilder;
+import com.nourshalabi.jwave.transforms.DiscreteFourierTransform;
+import com.nourshalabi.jwave.transforms.wavelets.Wavelet;
+import com.nourshalabi.jwave.transforms.wavelets.WaveletBuilder;
 
 /**
  * Main class can be used to do a little console test by entering a transform
@@ -88,7 +88,7 @@ public class JWave {
     double[ ] arrTime =
         { 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1. };
 
-    if( transform.getBasicTransform( ) instanceof DiscreteFourierTransform )
+    if( transform.getBasicTransform( ) instanceof DiscreteFourierTransform)
       System.out.print( TransformBuilder.identify( transform ) );
     else
       System.out.print( TransformBuilder.identify( transform ) + " using "

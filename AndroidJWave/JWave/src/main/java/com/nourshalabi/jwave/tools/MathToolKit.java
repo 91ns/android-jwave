@@ -21,9 +21,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.tools;
+package com.nourshalabi.jwave.tools;
 
-import jwave.exceptions.*;
+import com.nourshalabi.jwave.exceptions.*;
 
 /**
  * @author Christian Scheiblich (cscheiblich@gmail.com) date Feb 11, 2013

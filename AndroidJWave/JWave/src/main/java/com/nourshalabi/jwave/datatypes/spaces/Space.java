@@ -21,11 +21,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.datatypes.spaces;
+package com.nourshalabi.jwave.datatypes.spaces;
 
-import jwave.datatypes.Super;
-import jwave.exceptions.JWaveException;
-import jwave.exceptions.JWaveFailure;
+
+import com.nourshalabi.jwave.datatypes.Super;
+import com.nourshalabi.jwave.exceptions.JWaveException;
+import com.nourshalabi.jwave.exceptions.JWaveFailure;
 
 /**
  * A space of Data; 3-D organized by (0,0,0) .. (noOfRows,noOfCols,noOfBlocks).

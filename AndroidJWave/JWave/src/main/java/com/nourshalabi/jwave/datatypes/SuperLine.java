@@ -21,13 +21,13 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.datatypes;
+package com.nourshalabi.jwave.datatypes;
 
 import java.util.ArrayList;
 
-import jwave.datatypes.lines.Line;
-import jwave.exceptions.JWaveException;
-import jwave.exceptions.JWaveFailureNotValid;
+import com.nourshalabi.jwave.datatypes.lines.Line;
+import com.nourshalabi.jwave.exceptions.JWaveException;
+import com.nourshalabi.jwave.exceptions.JWaveFailureNotValid;
 
 /**
  * SuperLine consists of several Line objects of different sizes.

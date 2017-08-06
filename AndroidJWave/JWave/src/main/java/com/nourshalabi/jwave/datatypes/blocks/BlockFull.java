@@ -21,11 +21,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.datatypes.blocks;
+package com.nourshalabi.jwave.datatypes.blocks;
 
-import jwave.datatypes.lines.Line;
-import jwave.datatypes.lines.LineFull;
-import jwave.exceptions.JWaveException;
+import com.nourshalabi.jwave.datatypes.lines.Line;
+import com.nourshalabi.jwave.datatypes.lines.LineFull;
+import com.nourshalabi.jwave.exceptions.JWaveException;
 
 /**
  * A block that uses a full array for storage of Line objects.

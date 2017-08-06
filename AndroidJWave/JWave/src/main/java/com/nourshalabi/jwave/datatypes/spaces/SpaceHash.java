@@ -21,14 +21,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.datatypes.spaces;
+package com.nourshalabi.jwave.datatypes.spaces;
+
+import com.nourshalabi.jwave.datatypes.blocks.Block;
+import com.nourshalabi.jwave.datatypes.blocks.BlockHash;
+import com.nourshalabi.jwave.exceptions.JWaveException;
+import com.nourshalabi.jwave.exceptions.JWaveFailure;
 
 import java.util.HashMap;
-
-import jwave.datatypes.blocks.Block;
-import jwave.datatypes.blocks.BlockHash;
-import jwave.exceptions.JWaveException;
-import jwave.exceptions.JWaveFailure;
 
 /**
  * Uses HashMap generic for sparse data representations.
@@ -44,7 +44,7 @@ public class SpaceHash extends Space {
    * @author Christian Scheiblich (cscheiblich@gmail.com)
    * @date 16.05.2015 16:55:22
    */
-  HashMap< Integer, Block > _hashMapBlocks = null;
+  HashMap< Integer, Block> _hashMapBlocks = null;
 
   /**
    * A space object with no input; e.g. as a pattern.

@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.transforms.wavelets;
+package com.nourshalabi.jwave.transforms.wavelets;
 
 import java.util.Arrays;
 

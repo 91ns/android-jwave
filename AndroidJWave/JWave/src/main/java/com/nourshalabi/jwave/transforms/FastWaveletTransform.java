@@ -21,13 +21,13 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.transforms;
+package com.nourshalabi.jwave.transforms;
+
+import com.nourshalabi.jwave.exceptions.JWaveException;
+import com.nourshalabi.jwave.exceptions.JWaveFailure;
+import com.nourshalabi.jwave.transforms.wavelets.Wavelet;
 
 import java.util.Arrays;
-
-import jwave.transforms.wavelets.Wavelet;
-import jwave.exceptions.JWaveException;
-import jwave.exceptions.JWaveFailure;
 
 /**
  * Base class for - stepping - forward and reverse methods, due to one kind of a

@@ -21,11 +21,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.transforms;
+package com.nourshalabi.jwave.transforms;
 
-import jwave.transforms.wavelets.Wavelet;
-import jwave.exceptions.JWaveException;
-import jwave.exceptions.JWaveFailure;
+import com.nourshalabi.jwave.transforms.wavelets.Wavelet;
+import com.nourshalabi.jwave.exceptions.JWaveException;
+import com.nourshalabi.jwave.exceptions.JWaveFailure;
 
 /**
  * @author Christian Scheiblich (cscheiblich@gmail.com)

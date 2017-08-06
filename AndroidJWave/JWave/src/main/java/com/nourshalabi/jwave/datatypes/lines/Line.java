@@ -21,11 +21,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package jwave.datatypes.lines;
+package com.nourshalabi.jwave.datatypes.lines;
 
-import jwave.datatypes.Super;
-import jwave.exceptions.JWaveException;
-import jwave.exceptions.JWaveFailureNotValid;
+import com.nourshalabi.jwave.datatypes.Super;
+import com.nourshalabi.jwave.exceptions.JWaveException;
+import com.nourshalabi.jwave.exceptions.JWaveFailureNotValid;
 
 /**
  * A line of Data; 1-D organized by (0) .. (noOfRows).

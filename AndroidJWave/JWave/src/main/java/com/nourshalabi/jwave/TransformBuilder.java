@@ -6,16 +6,16 @@
  *
  * TransformBuilder.java
  */
-package jwave;
+package com.nourshalabi.jwave;
 
-import jwave.exceptions.JWaveException;
-import jwave.exceptions.JWaveFailure;
-import jwave.transforms.BasicTransform;
-import jwave.transforms.DiscreteFourierTransform;
-import jwave.transforms.FastWaveletTransform;
-import jwave.transforms.WaveletPacketTransform;
-import jwave.transforms.wavelets.Wavelet;
-import jwave.transforms.wavelets.WaveletBuilder;
+import com.nourshalabi.jwave.exceptions.JWaveException;
+import com.nourshalabi.jwave.exceptions.JWaveFailure;
+import com.nourshalabi.jwave.transforms.BasicTransform;
+import com.nourshalabi.jwave.transforms.DiscreteFourierTransform;
+import com.nourshalabi.jwave.transforms.FastWaveletTransform;
+import com.nourshalabi.jwave.transforms.WaveletPacketTransform;
+import com.nourshalabi.jwave.transforms.wavelets.Wavelet;
+import com.nourshalabi.jwave.transforms.wavelets.WaveletBuilder;
 
 /**
  * Class for creating and identifying Transform object.

@@ -25,13 +25,13 @@
  * @date 23.05.2008 17:42:23
  *
  */
-package jwave;
+package com.nourshalabi.jwave;
 
-import jwave.datatypes.natives.Complex;
-import jwave.exceptions.JWaveException;
-import jwave.exceptions.JWaveFailure;
-import jwave.transforms.BasicTransform;
-import jwave.transforms.wavelets.Wavelet;
+import com.nourshalabi.jwave.datatypes.natives.Complex;
+import com.nourshalabi.jwave.exceptions.JWaveException;
+import com.nourshalabi.jwave.exceptions.JWaveFailure;
+import com.nourshalabi.jwave.transforms.BasicTransform;
+import com.nourshalabi.jwave.transforms.wavelets.Wavelet;
 
 /**
  * Base class for transforms like DiscreteFourierTransform, FastBasicTransform,
